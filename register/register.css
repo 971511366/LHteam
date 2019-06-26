@@ -1,0 +1,52 @@
+.header{
+    height: 100px;
+    width:100%;
+     
+}
+
+
+
+
+
+.header-1>a{
+    padding: 25% 18%;
+}
+.header>.dv1{
+    height: 14px;
+    width: 144px;
+    position: relative;
+    font-size: 15px;
+    float: right;
+    margin-top: -1.5%;
+    margin-right:20%; 
+    color: #999; 
+}
+.dv1>a{
+    color: red;
+    text-decoration: none;
+}
+.dv1>a:hover{
+    color: #E2231A;
+    text-decoration:underline #E2231A;
+}
+.yy{
+    height: 7px;
+    width: 100%;
+    background: url(./img/yy.png) repeat-x;
+}
+.box2{
+    display: inline-block;
+    width: 100%;
+    height: 670px;
+    
+    
+}
+.box2>.dv2{
+    position: relative;
+    top: 10%;
+    left: 39%;
+    display: block;
+    
+
+
+}
