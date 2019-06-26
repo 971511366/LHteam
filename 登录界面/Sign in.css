@@ -1,0 +1,336 @@
+* {
+    padding: 0 px;
+    margin: 0 px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.head-c a {
+    text-decoration: none;
+}
+.d2 a{
+    text-decoration: none;
+}
+
+body>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(250, 250, 250);
+    padding: 10px;
+}
+
+.box-head {
+    background: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 1200px;
+}
+
+.box-head>div {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.box-head .head-a {
+    float: left;
+}
+
+.head-c,
+.head-b {
+    float: right;
+    font-size: 15px;
+    margin-right: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.head-c>a {
+    
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+}
+.box-body1{
+    margin: 0px auto;
+    width: 100%;
+    height: 20px;
+    background-color:#FFF8F0;
+}
+.body1-a{
+    font-size: 6px;
+    color: rgb(168, 168,168);
+}
+.box-head:after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+.tips-wrapper{
+    color:#333;
+    background:#fff8f0;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    vertical-align:middle;
+    color:#999;
+    font-size:12px;
+    display:inline-block;
+    *display:inline;
+}
+.content .tips-wrapper .cont-wrapper{
+    display:inline-block;
+    *display:inline;
+    width:90%}
+
+.login-banner{
+    position:absolute;
+    left:0;
+    text-outline: 252px;;
+    width:100%;
+    height:505px;
+    background:#e93854}
+.box-body {
+    
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 20%;
+    max-width: 870px;
+    min-width: 870px;
+    position: relative;
+}
+
+.w{
+    width:990px;
+    margin:0 auto;
+    width:1210px;
+    height:30px;
+    background:#F7F7F7;
+}
+.footer1{
+   text-align: center;
+   color: rgb(168, 168, 168);
+}
+
+.footer1>a{
+    font-size: 10px;
+}
+
+.box-body>.body-a {
+    display: inline-block;
+    margin-left: -17.5%;
+    padding: 0px 0px;
+}
+
+.box-body>.body-b {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 46%;
+}
+
+.body-b>.div1 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.body-b>.div1 img {
+    vertical-align: middle;
+}
+
+
+.body-b>.div1 .sp1 {
+    float: left;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+.body-b>.div1 .sp2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.body-b>.div1 .sp2>a {
+    display: block;
+    font-size: 15px;
+    color: blue;
+}
+
+.body-b>.div1::after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+
+.body-c {   
+    max-width: 85%;
+    margin: 20px auto;
+    background: white;
+    position: relative;
+    z-index: 2;
+    border: lightgray 1px solid;
+}
+
+.body-c>.div-a1 {
+    position: absolute;
+    display: inline-block;
+    top: -18px;
+    left: 45%;
+    z-index: 3;
+}
+
+.body-c>.div-a2 {
+    display: inline-block;
+    widows: 100px;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.dic-a0{
+    display: inline-block;
+    margin-top: 0px;
+    width: 170px;
+    height: 50px;
+    margin: 0px auto;
+    border:0.1px solid rgb(199, 199, 199);
+
+}
+.dic-a0>a{
+    display: block;
+    text-align: center;
+    line-height:55px; 
+    font-size: 20px;
+    color:rgb(168, 168, 168);
+    text-decoration: none;
+ 
+}
+
+.div-a2>.div-b1 div {
+    border: lightgray 1px solid;
+}
+
+.div-a2>.div-b1 div:hover {
+    border: rgb(153, 153, 153) 1px solid;
+}
+
+.div-a2>.div-b1 img {
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.div-a2>.div-b1 .d1 {
+    margin-bottom: 2px;
+}
+
+.div-a2>.div-b1 input {
+    width: 300px;
+    height: 50px;
+}
+
+.div-b2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.div-b2 div {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.div-b2>.d2 {
+    margin-left: 200px;
+}
+
+.div-b3 {
+    position: relative;
+}
+
+.div-b3 a {
+    position: absolute;
+    display: block;
+    color: white;
+    left: 45%;
+    top: 20%;
+}
+
+.div-b3 img {
+    width: 100%;
+    height: 40px;
+}
+
+.div-a3 {
+    height: 3px;
+    background: url("./登录界面/img04.png") repeat-x;
+    margin-top: 10px;
+}
+
+.div-a4 {
+    margin: 10px;
+    padding-left: 25px;
+}
+
+.div-a4 div {
+    margin-bottom: 10px;
+}
+
+.div-a4>.d1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div-a4>.d3 {
+    font-size: 13px;
+    color: gray;
+}
+
+.box-bottom {
+    min-width: 1200px;
+}
+
+.box-bottom span {
+    display: block;
+    text-align: center;
+}
+.black{
+    text-decoration: none;
+}
+.footer1 a{
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+.footer2{
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(168, 168, 168);
+    font-size: 10px;
+}
+a:hover{
+    
+    color: red;
+    text-decoration: red;
+    
+
+}
